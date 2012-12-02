@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+
+	<name>Easytagcloud</name>
+	<creationDate>Dec 2012</creationDate>
+	<author>Kee Wong</author>
+	<authorEmail>lilackee@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlatonight.com</authorUrl>
+	<copyright>Copyright 2012,all right reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>2.3</version>
+	<description>COM_EASYTAGCLOUD_DESCRIPTION</description>
+	<installfile>install.easytagcloud.php</installfile>
+	<uninstallfile>uninstall.easytagcloud.php</uninstallfile>
+	<files folder="components/com_easytagcloud">
+		<filename>index.html</filename>
+		<filename>easytagcloud.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+		<folder>language</folder>
+	</files>
+	<media destination="easytagcloud" folder="media">
+        <filename>index.html</filename>
+        <folder>assets</folder>
+    </media>	
+
+	<administration>
+		<menu img="../media/easytagcloud/assets/easytagcloud16X16.png">EASYTAGCLOUD</menu>
+		<files folder="administrator/components/com_easytagcloud">
+			<filename>index.html</filename>
+			<filename>easytagcloud.php</filename>
+			<folder>language</folder>
+		</files>
+	</administration>
+    <modules>
+	<module module="mod_easytagcloud" client="site" />	
+	</modules>	
+</extension>
+

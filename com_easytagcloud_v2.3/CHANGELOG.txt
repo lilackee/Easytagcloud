@@ -1,0 +1,26 @@
+Easytagcloud Change Log
+Website: http://www.joomlatonight.com 
+Author: Kee Wong(lilackee@gmail.com)
+
+------------------------------------------
+
+Version 2.3 -
+
+New features:
+   *Use database to store tags data rather than file.It runs faster,more stable and more flexible!
+   *Use Easytagcloud component to display related articles,not the Search component anymore,which always make the result inaccurate.
+   *Ignore the repeated tags in the same article. 
+   *Change a lot in backend interface,more convient to pick color and set other values.
+   *Enable to see the time to update and click to update tags in backend.
+   *Add Tags Order parameter.
+   *Add Display Number parameter(for the component).
+   *Add Chars Limit paramter(for the component).
+   *The backlink is removed from the module and added in the bottom of the component.
+
+
+Bug fixed:
+   *Repair the error when try to duplicate or try to create more than one module.
+
+
+Features removed:
+   *Remove Search Type parameter.
